@@ -3335,35 +3335,15 @@
         pointer-events: none;
         opacity: 0;
     }
-    /* Background video */
-    /*
-#back-vid {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    opacity: 22%;
-}
-*/
     
-    #vid {
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    #vid video {
-        position: fixed;
+    video {
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         object-fit: cover;
+        opacity: 15%;
     }
     /* Banner */
     
