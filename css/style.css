@@ -8523,6 +8523,14 @@ h1, h2, h3, h4, h5,
     background: #fff;
     border: 1px solid #fff;
     color: #000000; }
+    .btn.btn-whiteEbook {
+      background: #fff;
+      border: 1px solid #fff;
+      color: #000000; }
+      .btn.btn-whiteEbook:hover {
+        border: 1px solid #000;
+        background: transparent;
+        color: #ffff; }
     .btn.btn-white:hover {
       border: 1px solid #000;
       background: transparent;
