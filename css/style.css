@@ -9020,6 +9020,10 @@ textarea.form-control {
     list-style: none;
     margin-bottom: 15px;
     color: #999999; }
+    .block-7 .pricing-text li span.forfaitPrix {
+
+      color: #000000;
+    }
     .block-7 .pricing-text li span.fa {
       color: #a3cb4c; }
   .block-7 .btn-primary {
