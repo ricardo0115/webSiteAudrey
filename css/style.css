@@ -8968,6 +8968,7 @@ textarea.form-control {
     font-weight: 300; }
 
   .block-7 .forfait {
+    margin-bottom: 16px;
     font-size: 23px;
     font-weight: 300;
     color: #6f42c1;
@@ -8992,7 +8993,7 @@ textarea.form-control {
       color: #000000; }
     .block-7 .price .description {
       margin-top: 100px;
-      margin-bottom: 105px;
+      margin-bottom: 94px;
       font-size: 25px;
       font-weight: 300;
       color: #999999;
@@ -9000,7 +9001,7 @@ textarea.form-control {
     }
     .block-7 .description-text {
       margin-top: 55px;
-      margin-bottom: 60px;
+      margin-bottom: 57px;
       color: #999999;
       display: block;
     }
@@ -9015,7 +9016,8 @@ textarea.form-control {
     text-transform: uppercase; }
   .block-7 .pricing-text, .block-7 .pricing-text li {
     padding: 0;
-    margin: 0; }
+    margin: 0; 
+    margin-bottom: 15px; }
   .block-7 .pricing-text li {
     list-style: none;
     margin-bottom: 15px;
