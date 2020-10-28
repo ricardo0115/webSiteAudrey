@@ -61,7 +61,7 @@
 
 		$('.carousel-testimony').owlCarousel({
 			center: true,
-			loop: true,
+			loop: false,
 			items:1,
 			margin: 30,
 			stagePadding: 0,
@@ -83,11 +83,12 @@
 		$('.carousel-stories').owlCarousel({
 	    loop:true,
 	    autoplay: true,
-	    autoHeight: false,
+		autoHeight: false,
+		autoplayTimeout:20000,
 	    margin:30,
 	    nav:true,
-	    dots: false,
-	    autoplayHoverPause: false,
+	    dots: true,
+	    autoplayHoverPause: true,
 	    items: 1,
 	    navText : ["<p><span class='fa fa-chevron-left'></span></p>","<p><span class='fa fa-chevron-right'></span></p>"],
 	    responsive:{
