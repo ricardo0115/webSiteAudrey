@@ -11971,6 +11971,8 @@ h5,
   overflow: hidden;
 }
 
+
+
 .owl-carousel.home-slider .slider-item .overlay {
   position: absolute;
   top: 0;
@@ -11986,6 +11988,19 @@ h5,
 @media (max-width: 1199.98px) {
   .owl-carousel.home-slider .slider-item {
     background-position: center center !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .owl-carousel.home-slider .slider-item1Wrapper .slider-item {
+    background-position: left center !important;
+
+  }
+}
+
+@media (max-width: 480px) {
+  .owl-carousel.home-slider .slider-item2Wrapper .slider-item {
+    background-position : 35% !important;
   }
 }
 
@@ -12015,6 +12030,21 @@ h5,
   .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 40px;
     letter-spacing: 3px;
+  }
+}
+@media (max-width: 480px) {
+  .owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .owl-carousel.home-slider .slider-item2Wrapper .slider-item .text.w-100{
+    position: absolute !important;
+    text-align: right !important;
+    
   }
 }
 
