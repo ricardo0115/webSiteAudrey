@@ -11991,14 +11991,14 @@ h5,
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item1Wrapper .slider-item {
     background-position: left center !important;
 
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item2Wrapper .slider-item {
     background-position : 35% !important;
   }
@@ -12032,7 +12032,7 @@ h5,
     letter-spacing: 3px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 28px;
     letter-spacing: 1px;
@@ -12040,7 +12040,7 @@ h5,
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item2Wrapper .slider-item .text.w-100{
     position: absolute !important;
     text-align: right !important;
