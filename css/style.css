@@ -11993,7 +11993,7 @@ h5,
 
 @media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item1Wrapper .slider-item {
-    background-position: left center !important;
+    background-position: 20% center !important;
 
   }
 }
@@ -12034,15 +12034,38 @@ h5,
 }
 @media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 1px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 500px) {
+  .owl-carousel.home-slider .slider-item1Wrapper .slider-item h1{
+    color : white;
+   
+    
+  }
+}
+
+
+@media (max-width: 500px) {
+  .owl-carousel.home-slider .slider-item1Wrapper .slider-item .text.w-100{
+    
+    position: relative !important;
+    top : 200px !important;
+    text-align: center !important;
+
+   
   }
 }
 
 
 @media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item2Wrapper .slider-item .text.w-100{
-    position: absolute !important;
+    position: relative !important;
+    top: 200px !important;
+
     text-align: right !important;
     
   }
