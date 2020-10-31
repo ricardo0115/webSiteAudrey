@@ -12051,8 +12051,8 @@ h5,
 
 @media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item1Wrapper .slider-item .text.w-100{
-    
     position: relative !important;
+    top : 100px !important;
     text-align: center !important;
 
    
@@ -12063,6 +12063,7 @@ h5,
 @media (max-width: 500px) {
   .owl-carousel.home-slider .slider-item2Wrapper .slider-item .text.w-100{
     position: relative !important;
+    top: 100px !important;
 
     text-align: right !important;
     
