@@ -12386,6 +12386,13 @@ h5,
   }
 }
 
+.servicesContainer p{
+  font-size : 16px;
+
+}
+
+
+
 .services {
   display: block;
   width: 100%;
@@ -12396,6 +12403,9 @@ h5,
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
+
+
 
 .services .services-wrap {
   width: 100%;
