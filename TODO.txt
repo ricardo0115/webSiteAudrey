@@ -1,0 +1,10 @@
+Faire mentions légales DONE
+
+Faire script formulaire contact
+
+Ajouter liens d'Ophélia
+
+Ajouter pop up E-Book
+
+Faire web scraping pour section blog
+
