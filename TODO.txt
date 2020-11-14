@@ -3,7 +3,7 @@ Faire mentions légales DONE
 Faire script formulaire contact DONE HOLY SHIT
 
 
-Changer nom .html en barre d'addresse
+Changer nom .html en barre d'addresse DONE
 
 Faire script newsletter
 
