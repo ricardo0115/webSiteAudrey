@@ -244,21 +244,37 @@
 		let message = $('#message').val();
 		document.querySelector(".contactForm").reset();
 		//Verifications must be done with push notifications
+
+		if (fname.length <= 1 || lname.length <= 1){
+			alert("Nom ou prénom invalides");
+
+			return false;
+		}
+
+		if (subject.length < 1){
+			alert("Sujet invalide");
+		
+			return false;
+		}
+
+		if (message.length <= 1 || message.length >= 500){
+			alert("Message invalide");
+			return false;
+		}
+
 		sendEmail(fname, lname,  email,  subject, message);
 
 	}
 
 	function sendEmail(fname, lname, email, subject, message) {
 		Email.send({
-			Host: "smtp.c-bon-pour-moi.com",
-			Username: "audrey",
-			Password: "z!?-bOnT*7b_",
-			To: "manuel.guevara-garban@etu.u-bordeaux.fr",
-			From: "audrey@c-bon-pour-moi.com",
-			Subject: `${fname} sent you a message`,
-			Body: `Name: ${fname} ${lname}  <br/> Email: ${email} <br/> Message : ${message}`,
+			SecureToken : "66c6ddf2-3b69-4e5d-904a-61cacd406b32",
+			To: "audrey.coaching.nutrition@gmail.com",
+			From: `siteaudrey@audrey-coaching.com`,
+			Subject: `${fname} sent you a message, Sujet : ${subject} `,
+			Body: `Prénom: ${fname} <br/> Nom: ${lname}  <br/> Email: ${email} <br/> Message : ${message}`,
 			 
-		}).then((message) => alert("mail sent successfully"))
+		}).then((message) => alert("Message envoyé avec succès!"))
 	}
 
 

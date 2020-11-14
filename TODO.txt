@@ -1,6 +1,11 @@
 Faire mentions légales DONE
 
-Faire script formulaire contact
+Faire script formulaire contact DONE HOLY SHIT
+
+
+Changer nom .html en barre d'addresse
+
+Faire script newsletter
 
 Ajouter liens d'Ophélia
 
