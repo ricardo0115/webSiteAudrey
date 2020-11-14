@@ -232,6 +232,34 @@
 
 	$('.appointment_time').timepicker();
 
+	document.querySelector(".contactForm").addEventListener("submit",submitForm);
+
+	function submitForm(e){
+		e.preventDefault();
+
+		let fname = $('#fname').val();
+		let lname = $('#lname').val();
+		let email = $('#email').val();
+		let subject = $('#subject').val();
+		let message = $('#message').val();
+		document.querySelector(".contactForm").reset();
+		//Verifications must be done with push notifications
+		sendEmail(fname, lname,  email,  subject, message);
+
+	}
+
+	function sendEmail(fname, lname, email, subject, message) {
+		Email.send({
+			Host: "smtp.c-bon-pour-moi.com",
+			Username: "audrey",
+			Password: "z!?-bOnT*7b_",
+			To: "manuel.guevara-garban@etu.u-bordeaux.fr",
+			From: "audrey@c-bon-pour-moi.com",
+			Subject: `${fname} sent you a message`,
+			Body: `Name: ${fname} ${lname}  <br/> Email: ${email} <br/> Message : ${message}`,
+			 
+		}).then((message) => alert("mail sent successfully"))
+	}
 
 
 })(jQuery);
